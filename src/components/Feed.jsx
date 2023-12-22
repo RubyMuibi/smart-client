@@ -8,7 +8,7 @@ import likeIcon from "../assets/like-icon.svg";
 import commentIcon from "../assets/comment-icon.svg";
 
 const Feed = ( { categoryFilter} ) => {
-  const proxy = SERVER_URL;
+  const proxy = import.meta.env.SERVER_URL;
 
   const [feed, setFeed] = useState([{}]);
 
