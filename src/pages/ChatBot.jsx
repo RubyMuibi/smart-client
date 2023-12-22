@@ -4,7 +4,7 @@ import axios from "axios";
 import sendIcon from "../assets/send-icon.svg";
 
 const ChatBot = () => {
-  const proxy = "http://localhost:4000/";
+  const proxy = `${import.meta.env.SERVER_URL}`;
 
   const [userMessage, setUserMessage] = useState("");
   const [aiMessage, setAiMessage] = useState(null);
