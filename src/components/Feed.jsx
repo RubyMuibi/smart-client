@@ -8,7 +8,7 @@ import likeIcon from "../assets/like-icon.svg";
 import commentIcon from "../assets/comment-icon.svg";
 
 const Feed = ( { categoryFilter} ) => {
-  const proxy = "https://smart-server-8ssp.onrender.com";
+  const proxy = "https://smart-server-8ssp.onrender.com/";
 
   const [feed, setFeed] = useState([{}]);
 
